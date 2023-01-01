@@ -38,7 +38,7 @@ token <- readRDS("rtoot_token.rds")
 
 # post the file to botsin.space
 post_toot(token = token, status = "", media="merged_final.png",
-          alt_text = paste("shot from Jurassic Park where Lex is sitting in front of the computer but it's not a unix system"))
+          alt_text = paste("shot from Jurassic Park where Lex is sitting in front of the computer but it's not a unix system, it's a",  readLines("systemname.txt"), "system"))
 
 
 
