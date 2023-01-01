@@ -2,8 +2,11 @@
 
 setwd("~/lexknowssystems")
 
+library(rtoot)
+
 make_im <- system2("./lex.sh")
 
+# post to twitter
 post_it <- function(fn="merged_final.png"){
   # switch account
   fuzzy_dog0 <- system2("/usr/local/bin/twurl", "set default LexKnowsSystems")
@@ -24,6 +27,18 @@ post_it <- function(fn="merged_final.png"){
   # reset default
   fuzzy_dog0 <- system2("/usr/local/bin/twurl", "set default goodsdmbot")
 }
-
 post_it()
+
+# post to mastodon
+
+# to create the token
+#auth_setup(browser=FALSE, path="rtoot_token.rds")
+# get token
+token <- readRDS("rtoot_token.rds")
+
+# post the file to botsin.space
+post_toot(token = token, status = "", media="merged_final.png",
+          alt_text = paste("shot from Jurassic Park where Lex is sitting in front of the computer but it's not a unix system"))
+
+
 
