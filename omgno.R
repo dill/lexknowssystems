@@ -1,5 +1,7 @@
 # David Lawrence Miller 2021
 
+setwd("~/lexknowssystems")
+
 make_im <- system2("./lex.sh")
 
 post_it <- function(fn="merged_final.png"){
