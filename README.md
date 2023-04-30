@@ -1,12 +1,12 @@
 # `@lexknowssystems` 👩‍💻🦖
 
-Inner workings of the twitter bot [@LexKnowsSystems](https://twitter.com/lexknowssystems).
+Inner workings of the Mastodon bot [@LexKnowsSystems@botsin.space](https://botsin.space/@lexknowssystems).
 
 ## why? ⁉️
 
 In the movie [Jurassic Park](https://en.wikipedia.org/wiki/Jurassic_Park_(film)) the character Lex Murphy (as played by [Ariana Richards](https://en.wikipedia.org/wiki/Ariana_Richards)) sits at a computer and upon recognising the operating system, declares "this is a UNIX system, I know this!" (capitalisation from subtitles).
 
-This twitter bot imagines that the computer ran a different OS.
+This bot imagines that the computer ran a different OS.
 
 ## which OSs? 🖥❓
 
