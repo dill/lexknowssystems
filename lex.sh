@@ -22,7 +22,15 @@ thesystem=${thefile/images/}
 thesystem=${thesystem/\//}
 thesystem=${thesystem//_/ }
 thesystem=${thesystem/\.[a-z][a-z][a-z]/}
-# "it's a Unix system, I know this"
-convert merged.png \( -background black -fill yellow -font Helvetica -pointsize 48 -gravity center label:"This is a ${thesystem} system,\nI know this!" \) -gravity south -compose over -composite merged_final.png
+if ! [[ "${thesystem,,}" =~ ^unix ]] && \
+    ([[ "${thesystem,,}" =~ ^[aeiou] ]] || [[ "${thesystem,,}" =~ ^lcars ]]); then
+    
+    thearticle=an
+else
+    thearticle=a
+fi
 
-echo $thesystem > systemname.txt
+# "it's a Unix system, I know this"
+convert merged.png \( -background black -fill yellow -font Helvetica -pointsize 48 -gravity center label:"This is ${thearticle} ${thesystem} system,\nI know this!" \) -gravity south -compose over -composite merged_final.png
+
+echo $thearticle $thesystem > systemname.txt
