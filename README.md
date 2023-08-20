@@ -4,7 +4,7 @@ Inner workings of the Mastodon bot [@LexKnowsSystems@botsin.space](https://botsi
 
 ## why? ⁉️
 
-In the movie [Jurassic Park](https://en.wikipedia.org/wiki/Jurassic_Park_(film)) the character Lex Murphy (as played by [Ariana Richards](https://en.wikipedia.org/wiki/Ariana_Richards)) sits at a computer and upon recognising the operating system, declares "this is a UNIX system, I know this!" (capitalisation from subtitles).
+In the movie [Jurassic Park](https://en.wikipedia.org/wiki/Jurassic_Park_(film)) the character Lex Murphy (as played by [Ariana Richards](https://en.wikipedia.org/wiki/Ariana_Richards)) sits at a computer and upon recognising the operating system, declares ["this is a UNIX system, I know this!"](https://www.youtube.com/watch?v=ZDxLa6P6exc&t=510s) (capitalisation from subtitles).
 
 This bot imagines that the computer ran a different OS.
 
