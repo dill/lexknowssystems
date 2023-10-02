@@ -15,7 +15,7 @@ Options are stored in [`images/`](https://github.com/dill/lexknowssystems/tree/m
 If I am using your image and you don't want it to be used any more, send a pull request.
 
 If you have an image you'd like me to use, send a pull request :) Please try to:
-  * keep images at about the right aspect ratio (see existing images)
+  * keep images at about the right aspect ratio (see existing images) and apply [aspect ratio correction](https://www.gamedeveloper.com/business/no-ms-dos-games-weren-t-widescreen-tips-on-correcting-aspect-ratio) for older systems
   * have them be of an operating system
   * not have them contain copyrighted/inappropriate content
   * name your file with underscores where spaces should be, this will be what's in the subtitle (minus path and extension)
