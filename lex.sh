@@ -23,7 +23,7 @@ thesystem=${thesystem/\//}
 thesystem=${thesystem//_/ }
 thesystem=${thesystem/\.[a-z][a-z][a-z]/}
 if ! [[ "${thesystem,,}" =~ ^unix ]] && \
-    ([[ "${thesystem,,}" =~ ^[aeiou] ]] || [[ "${thesystem,,}" =~ ^lcars ]]); then
+    ([[ "${thesystem,,}" =~ ^[aeiou] ]] || [[ "${thesystem,,}" =~ ^lcars ]] || [[ "${thesystem,,}" =~ ^xbox ]]); then
     
     thearticle=an
 else
